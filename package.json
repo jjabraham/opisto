@@ -1,0 +1,28 @@
+{
+  "name": "opisto",
+  "version": "0.1.0",
+  "description": "Express API boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "DEBUG=app-* node index.js",
+    "init": "DEBUG=app-* node utils/initialize_users.js"
+  },
+  "author": "John Abraham",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "bunyan": "^1.8.10",
+    "compression": "^1.6.2",
+    "debug": "^2.6.8",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "helmet": "^3.6.0",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.9"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
