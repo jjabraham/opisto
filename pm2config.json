@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"       : "opisto",
+    "script"      : "index.js",
+    "instances"  : 1,
+    "exec_mode"  : "fork",
+    "watch"       : true,
+    "ignore_watch" : ["node_modules", "server/logs", ".git"],
+    "node_args" : "--use_strict"
+  }]
+}
